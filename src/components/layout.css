@@ -1,0 +1,97 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Texturina&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,300&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  /* font-family: "Roboto", sans-serif; */
+  /* font-family: "Texturina", serif; */
+  font-family: "Roboto Condensed", sans-serif;
+  /* font-weight: 300; */
+  /* font-size: 1.2rem; */
+}
+
+h1 {
+  color: blue;
+  text-transform: capitalize;
+  padding: 2px 5px;
+}
+
+.testColor {
+  color: orangered;
+}
+
+p {
+  line-height: 2;
+}
+.blog-text {
+  color: red;
+  line-height: 0.95;
+}
+.products-text {
+  color: green;
+  line-height: 3;
+}
+
+/* Navbar */
+nav {
+  padding: 5px;
+  border: 2px solid steelblue;
+}
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+  background-color: aliceblue;
+  margin: 2px;
+  padding: 2px 5px;
+  border: 2px solid steelblue;
+}
+nav > ul > li > a {
+  color: steelblue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Images : section.images - article.single-image */
+.images {
+  text-align: center;
+  text-transform: capitalize;
+  width: 90vw;
+  margin: 0 auto 10rem auto;
+  padding: 2px;
+  border: 5px solid crimson;
+}
+.single-image {
+  margin: 2px;
+  padding: 1rem 2px;
+  border: 5px solid slateblue;
+}
+@media screen and (min-width: 992px) {
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* column-gap: 5px; */
+  }
+}
+.small {
+  width: 100px;
+}
+
+/* Single Product */
+.single-product {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 3rem auto;
+  /* border: 1px solid #ccc; */
+}
+@media screen and (min-width: 768px) {
+  .single-product {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
+}

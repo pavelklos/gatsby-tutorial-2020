@@ -1,0 +1,53 @@
+.page {
+  width: 90vw;
+  max-width: 1170px;
+  text-transform: capitalize;
+  margin: 0 auto;
+  /* padding: 2px; */
+
+  border: 2px solid steelblue;
+}
+
+.page span {
+  margin-left: 2rem;
+  color: crimson;
+}
+
+.page article {
+  border: 2px solid crimson;
+  margin: 2rem 0;
+}
+
+/* <div class="gatsby-image-wraper"> */
+.page div {
+  height: 15rem;
+  border: 2px solid yellow;
+}
+
+@media screen and (min-width: 768px) {
+  .page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .page {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
+/* .page {
+  background: lightyellow;
+  border: 1px solid darkviolet;
+  padding: 1rem;
+}
+.page h1 {
+  color: darkviolet;
+}
+.text {
+  text-transform: uppercase;
+  font-weight: bold;
+} */
